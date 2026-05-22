@@ -5,8 +5,8 @@ A comprehensive **Exploratory Data Analysis (EDA)** project analyzing student be
 ## 👤 Developer
 
 **Sumil Dholakiya**
-
 For questions, feedback, or support regarding this hotel management system, please feel free to reach out.
+
 ---
 
 ## 📋 Table of Contents
