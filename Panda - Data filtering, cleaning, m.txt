@@ -1,0 +1,91 @@
+Panda - Data filtering, cleaning, manipulation (Series/data frame)
+NumPy - perform arithmetic and numerical operation
+matplotlib - generate charts ( bar/ line/ scatterplot )
+Seaborn - Heatmap , line plot, bar plot, histogram, boxplot
+
+sklearn - linear / logistic regression
+
+
+*******Data Frame Operation***********
+
+** Import Csv
+df = pd.read_csv("FIle_Name")
+
+
+ ** Print top and last lines
+df.head()
+df.tail()
+
+
+ ** Size of Data 
+df.shape  [ op=(8807,12) ]
+
+
+** Column Name
+df.columns
+
+
+**Data info (Structure - column name/ non-null count/ datatype)
+df.info()
+
+
+** Datatype
+df.dtypes
+
+
+*******EDA******************************
+
+**univariate
+
+df['marks'].hist() (Create histogram for marks)
+
+plt.title("Title of histogram")
+plt.show() - presentr histogram
+
+
+sns.boxplot(x=df['marks'])
+plt.show
+
+
+
+** Bivariate
+
+
+sns.countplot(x="marks", data=df)
+plt.show()
+
+
+sns.scatterplot(x='marks', y=df.index, hue='type', data=df)
+plt.show()
+
+
+sns.pairplot(df[['realease_year']], height=5, aspect=2)
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
