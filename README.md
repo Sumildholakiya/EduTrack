@@ -2,6 +2,11 @@
 
 A comprehensive **Exploratory Data Analysis (EDA)** project analyzing student behavior, lifestyle factors, and their impact on academic performance. This project uses Python data science tools to uncover patterns and insights from 5,000+ student records.
 
+## 👤 Developer
+
+**Sumil Dholakiya**
+
+For questions, feedback, or support regarding this hotel management system, please feel free to reach out.
 ---
 
 ## 📋 Table of Contents
